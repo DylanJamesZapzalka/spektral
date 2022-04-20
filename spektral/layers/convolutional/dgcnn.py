@@ -114,4 +114,4 @@ class DGCNNConv(Conv):
 
     @staticmethod
     def preprocess(a):
-        return gcn_filter(a, symmetric=True)
+        return gcn_filter(a, symmetric=False)
